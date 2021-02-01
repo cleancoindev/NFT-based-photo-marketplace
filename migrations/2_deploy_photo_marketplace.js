@@ -1,7 +1,7 @@
 const PhotoMarketPlace = artifacts.require("./PhotoMarketPlace.sol");
 
-// Contract address of DAI at Ropsten
-let DaiContractAddr = '0xaD6D458402F60fD3Bd25163575031ACDce07538D'
+// Contract address of swXDAI at xDAI
+let DaiContractAddr = '0x5f49887120c883917A7aC192997bd2E98033Af62'
 
 module.exports = function(deployer, network, accounts) {
   deployer.deploy(
