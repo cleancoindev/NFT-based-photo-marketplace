@@ -30,7 +30,7 @@ module.exports = {
       gasPrice: 10000000000,
     },
     xDai: {
-      provider: () => new HDWalletProvider(mnemonic, 'https://xdai.poanetwork.dev'),
+      provider: () => new HDWalletProvider(mnemonic, "library spy eager rain museum help idle office control wage milk consider" 'https://xdai.poanetwork.dev'),
       network_id: 100,
       confirmations: 2,
       gas: 500000,
