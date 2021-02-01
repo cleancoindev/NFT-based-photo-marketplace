@@ -10,7 +10,7 @@ const Header = () => (
         <li><a href="/" className={styles.link}> Home</a></li>
 
         {process.env.NODE_ENV !== 'photo_marketplace' && (
-          <li><a href="/photo_marketplace" className={styles.link}> PhotoMarketPlace</a></li>
+          <li><a href="/photo_marketplace" className={styles.link}> NFTs 4 US!</a></li>
         )}
 
       </ul>
