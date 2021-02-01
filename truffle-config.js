@@ -29,6 +29,15 @@ module.exports = {
       gas: 4465030,
       gasPrice: 10000000000,
     },
+    xDai: {
+      provider: () => new HDWalletProvider(mnemonic, 'https://xdai.poanetwork.dev'),
+      network_id: 100,
+      confirmations: 2,
+      gas: 500000,
+      gasPrice: 1000000000
+      skipDryRun: true
+   },
+   
     kovan: {
       provider: function() {
         return new HDWalletProvider(MNENOMIC, 'https://kovan.infura.io/v3/' + process.env.INFURA_API_KEY)
