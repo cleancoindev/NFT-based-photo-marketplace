@@ -30,7 +30,7 @@ contract PhotoMarketPlace is ERC721Full, Ownable, PhStorage, PhOwnable, PullPaym
     mapping (string => bool) _colorExists;
     
     
-    constructor(address _DaiContractAddr) public ERC721Full("Photo", "PHT") {
+    constructor(address _DaiContractAddr) public ERC721Full("ArtPiece", "ART1") {
         DaiContractAddr = _DaiContractAddr;
     }
 
